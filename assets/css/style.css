@@ -1,3 +1,58 @@
-#navbarNav{justify-content: end;
+#navbarNav {
+  justify-content: end;
+}
+/* seccion de foto + resumen cv*/
+.section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
 
+  align-items: center;
+}
+.fotoperfil {
+  display: flex;
+}
+.cajaresumen {
+  width: 500px;
+  height: 250px;
+  align-content: center;
+
+}
+.cajaresumen > h2 {
+  text-align: center;
+}
+#resumencv {
+
+  text-align: justify;
+  padding: 3%;
+}
+
+/* seccion de Mas sobre mi*/
+
+.section2 > h2 {
+  text-align: center;
+}
+.sobremi {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-header{
+text-align: center;
+}
+
+/*seccion de habilidades*/
+#habilidades {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  background-size: contain;
+}
+.card-title {
+  text-align: center;
+}
+.cardhabi {
+  border: none;
 }

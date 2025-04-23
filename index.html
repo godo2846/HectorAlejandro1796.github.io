@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>CV HECTOR MARTINEZ</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end;">
+              <div class="collapse navbar-collapse" id="navbarNav" >
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
@@ -34,21 +35,21 @@
           </nav>
     </header>
     <main>
-        <section style="display: flex; justify-content: center; margin-top: 3%;  border: solid black 3px; align-items: center;">
-            <div style="display: flex;">
+        <section class="section1" >
+            <div class="fotoperfil">
                 <img src="./assets/imgs/foto-perfil.png" alt="foto de Hector Martinez">
             </div>
-            <div style="width: 500px; height: 250px; align-content: center; border: solid black 3px;">
-                <h2 style="text-align: center;">Hector Martinez</h2>
-                <p style=" border: blue solid 2px; text-align: justify; padding: 3%;">Técnico en Informática con experiencia en el área de servicios de transporte privado y en roles de técnico de redes y técnico eléctrico.
+            <div class="cajaresumen">
+                <h2 >Hector Martinez</h2>
+                <p id="resumencv">Técnico en Informática con experiencia en el área de servicios de transporte privado y en roles de técnico de redes y técnico eléctrico.
                     Después de emigrar a Chile en busca de mejores oportunidades, deseo retomar mi carrera en informática para mejorar mis perspectivas laborales y económicas.
                     Apasionado por la tecnología y comprometido con el aprendizaje continuo.</p>
             </div>
         </section>
 
-        <section style="border: solid blue 2px;">
-            <h2 style="text-align: center;"> Mas Sobre Mi</h2>
-            <div style="display: flex; justify-content: space-evenly;">
+        <section class="section2">
+            <h2> Mas Sobre Mi</h2>
+            <div class="sobremi">
 
                 <div class="card" style="width: 18rem;">
                     <div class="card-header">
@@ -81,58 +82,46 @@
             </div>
         </section>
         <section>
-            <div style="text-align: center;">
-                <h2>Habilidades</h2>
-            </div>
             <div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="./assets/imgs/html.png" class="card-img-top" alt="logo de html">
-                        <div class="card-body">
-                          <h5 class="card-title">HTML</h5>
-                          <p class="card-text">HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el lenguaje estándar utilizado para crear y estructurar páginas web.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./assets/imgs/css.png" class="card-img-top" alt="logo de css">
-                        <div class="card-body">
-                          <h5 class="card-title">CSS</h5>
-                          <p class="card-text"> "Cascading Style Sheets" (Hojas de Estilo en Cascada), es un lenguaje de programación que se utiliza para definir el diseño visual de un documento web, como páginas HTML.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./assets/imgs/Bootstrap.png" class="card-img-top" alt="logo de bootstrap">
-                        <div class="card-body">
-                          <h5 class="card-title">Bootstrap</h5>
-                          <p class="card-text">Es un framework de código abierto para la creación de sitios web responsivos y móviles, basado en HTML, CSS y JavaScript. </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                          <img src="./assets/imgs/git.png" class="card-img-top" alt="logo de GitHub">
-                          <div class="card-body">
-                            <h5 class="card-title">Git / GitHub</h5>
-                            <p class="card-text">Git es un sistema de control de versiones que permite rastrear los cambios en archivos, mientras que GitHub es una plataforma web que aloja repositorios Git y facilita la colaboración. En esencia, Git es la herramienta y GitHub es el lugar donde se guarda y trabaja con los repositorios. </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card">
-                          <img src="./assets/imgs/windows.png" class="card-img-top" alt="logo de windows">
-                          <div class="card-body">
-                            <h5 class="card-title">Windows</h5>
-                            <p class="card-text">Sistema operativo desarrollado por Microsoft que es utilizado en una amplia gama de dispositivos, incluyendo computadoras personales, portátiles, servidores, y en el pasado, incluso teléfonos inteligentes</p>
-                          </div>
-                        </div>
-                      </div>
+                <h2 id="habilidades">Habilidades</h2>
+            </div>
+            <div class="row  g-4 p-4" style="justify-content: space-between;">
+              <div class="col col-md-2">
+                <div class="card h-100 cardhabi">
+                  <img src="./assets/imgs/html.png" class="card-img-top"  alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
                   </div>
+                </div>
+              </div>
+               <div class="col col-md-2">
+                <div class="card h-100 cardhabi">
+                  <img src="./assets/imgs/css.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                  </div>
+                </div>
+              </div> <div class="col col-md-2">
+                <div class="card h-100 cardhabi">
+                  <img src="./assets/imgs/Bootstrap.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                  </div>
+                </div>
+              </div> <div class="col col-md-2">
+                <div class="card h-100 cardhabi">
+                  <img src="./assets/imgs/git.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Git/GitHub</h5>
+                  </div>
+                </div>
+              </div> <div class="col col-md-2">
+                <div class="card h-100 cardhabi">
+                  <img src="./assets/imgs/windows.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Windows</h5>
+                  </div>
+                </div>
             </div>
         </section>
     </main>

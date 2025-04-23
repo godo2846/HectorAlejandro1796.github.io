@@ -5,33 +5,18 @@
 .section1 {
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 10%;
+  margin-left: 10%;
 
-  align-items: center;
-}
-.fotoperfil {
-  display: flex;
-}
-.cajaresumen {
-  width: 500px;
-  height: 250px;
-  align-content: center;
-
-}
-.cajaresumen > h2 {
-  text-align: center;
 }
 #resumencv {
-
+    width: 70%;
   text-align: justify;
   padding: 3%;
 }
 
 /* seccion de Mas sobre mi*/
 
-.section2 > h2 {
-  text-align: center;
-}
 .sobremi {
   display: flex;
   justify-content: space-evenly;
@@ -42,17 +27,24 @@ text-align: center;
 }
 
 /*seccion de habilidades*/
-#habilidades {
-  text-align: center;
+.section3 {
+margin-top: 1%;
+padding: 1%;
 }
+
 
 .card-img-top {
   height: 200px;
   background-size: contain;
 }
-.card-title {
-  text-align: center;
-}
 .cardhabi {
   border: none;
 }
+
+#Mis-proyectos .image-top {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  

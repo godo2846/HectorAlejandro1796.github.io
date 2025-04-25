@@ -1,29 +1,35 @@
-body{
-background-color: #ebedef  ;
-font-family: "Ubuntu", sans-serif;
+body {
+  background-color: #ebedef;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #navbarNav {
   justify-content: end;
 }
-.bg-azul{
-background-color:#1a5276;
-color: white;
+
+.bg-azul {
+  background-color: #1a5276;
 }
-.bg-azul2{
-  background-color: #ebedef  ;
+
+.navbar a {
+  color: #ffffff;
+}
+
+.bg-azul2 {
+  background-color: #ebedef;
 }
 
 /* seccion de foto + resumen cv*/
+
 .section1 {
   display: flex;
   justify-content: center;
   margin-top: 10%;
   margin-left: 10%;
-
 }
+
 #resumencv {
-    width: 70%;
+  width: 70%;
   text-align: justify;
   padding: 3%;
 }
@@ -35,38 +41,40 @@ color: white;
   justify-content: space-evenly;
 }
 
-.card-header{
-text-align: center;
+.card-header {
+  text-align: center;
 }
 
 /*seccion de habilidades*/
-.section3 {
-margin-top: 1%;
-padding: 1%;
-}
 
+.section3 {
+  margin-top: 1%;
+  padding: 1%;
+}
 
 .card-img-top {
   height: 200px;
   background-size: contain;
 }
+
 .cardhabi {
   border: none;
 }
 
 #Mis-proyectos .image-top {
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
   #Contacto form label {
-    font-weight: 700;
-    color: #373a3c;
+    font-weight: 400;
   }
-
-  @media (max-width: 768px) {
-    #Contacto form label {
-      font-weight: 400;
-      }}
+}

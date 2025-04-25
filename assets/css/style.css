@@ -1,6 +1,19 @@
+body{
+background-color: #ebedef  ;
+font-family: "Ubuntu", sans-serif;
+}
+
 #navbarNav {
   justify-content: end;
 }
+.bg-azul{
+background-color:#1a5276;
+color: white;
+}
+.bg-azul2{
+  background-color: #ebedef  ;
+}
+
 /* seccion de foto + resumen cv*/
 .section1 {
   display: flex;
@@ -47,4 +60,13 @@ padding: 1%;
     background-size: contain;
     background-position: center;
   }
-  
+
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+      }}
